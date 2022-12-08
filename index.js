@@ -4,7 +4,6 @@ const PORT =  process.env.port || 5000;
 
 const http = require("http").Server(app);
 const cors = require("cors");
-const { CONNREFUSED } = require("dns");
 
 const socketIO = require("socket.io")(http, {
   cors: {
