@@ -7,7 +7,7 @@ const cors = require("cors");
 
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "https://crypto-transction-u5e5.vercel.app",
+    origin: "https://upvote404.vercel.app",
   },
 });
 
